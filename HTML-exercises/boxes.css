@@ -1,0 +1,24 @@
+/* using just CSS:
+put a green border around all the blue boxes (but not around their container)
+change the color of box3 and box4 only
+put a red circle inside of box3
+when the checkbox is clicked, all the boxes should stack into a single column (hint: look up the “display” css property)
+*/
+
+* {
+  box-sizing: border-box;
+  transition: .5s all ease;
+}
+
+.bigBox {
+  background: none;
+  width: 100%;
+}
+
+.bigBox > div {
+  margin: 2%;
+  background: cornflowerblue;
+  padding: 5%;
+  display: inline-block;
+  width: 40%;
+}
